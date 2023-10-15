@@ -5,24 +5,16 @@ function getLocation(){
     return userFrom;
  }
 
-function locationCheck(userCity){
-    if(userCity === ''){
-        let userFrom = prompt('Please tell me where your from if you want to'); 
+function whatLocation(message){
+    if(message === 'Seattle'){
+        document.write("Welcome Seattle Mariner Fan!!!");
+    } else if (message === 'New York'){
+        document.write('Welcome New York Yankee Fan!!!');
+    } else if (message === 'Boston'){
+        document.write('Welcome Boston Red Sox Fan!!! Sorry for a bad season...') ;    
     } else {
-        userFrom = userCity;}
-    return userFrom;
+        document.write('Sorry, do not have a message for your location. Please enter Seattle, New York or Boston for a different resoonse.');
     }
-
-// function whatLocation(message){
-//     if(message === 'Seattle'){
-//         document.write("Welcome Seattle Mariner Fan!!!");
-//     } else if (message === 'New York'){
-//         document.write('Welcome New York Yankee Fan!!!');
-//     } else if (message === 'Boston'){
-//         document.write('Welcome Boston Red Sox Fan!!! Sorry for a bad season...') ;    
-//     } else {
-//         document.write('Sorry, do not have a message for your location. Please enter Seattle, New York or Boston for a different resoonse.');
-//     }
     
-//  }
+ }
 
