@@ -7,14 +7,11 @@ function getLocation(){
 
 function locationCheck(userCity){
     if(userCity === ''){
-        userFrom = prompt('Please tell me where your from if you want to');
-        return userFrom;
-}
-    
-    // } else {
-    //     userCity = locationPlace;}
-    // return locationPlace;
-    // }
+        userFrom = prompt('Please tell me where your from if you want to'); 
+    } else {
+        userFrom = userCity;}
+    return userFrom;
+    }
 
 function whatLocation(message){
     if(message === 'Seattle'){
