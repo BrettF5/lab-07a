@@ -5,15 +5,14 @@ function getLocation(){
     return userFrom;
  }
 
+function locationCheck(userFromCity){
+    if(userFromCity ''){
+        locationPlace = prompt('Please tell me where your from if you want to');
+    } else {
+        let userFromCity = locationPlace}
 
-// function locationCheck(userFromCity){
-//     if(userFromCity ''){
-//         locationPlace = prompt('Please tell me where your from if you want to');
-//     } else {
-//         let userFromCity = locationPlace}
-
-//         return locationPlace;
-//     }
+        return locationPlace;
+    }
 
 // function whatLocation(message){
 //     if(message === 'Seattle'){
