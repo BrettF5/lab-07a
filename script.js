@@ -9,7 +9,7 @@ function locationCheck(userCity){
     if(userCity === ''){
         let userFrom = prompt('Please tell me where your from if you want to'); 
     } else {
-        let userFrom = userCity;}
+        userFrom = userCity;}
     return userFrom;
     }
 
