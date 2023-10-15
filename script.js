@@ -10,8 +10,7 @@ function locationCheck(userCity){
         locationPlace = prompt('Please tell me where your from if you want to');
     } else {
         userCity = locationPlace}
-
-        return locationPlace;
+    return locationPlace;
     }
 
 function whatLocation(message){
