@@ -6,7 +6,7 @@ function getLocation(){
  }
 
 function whatLocation(message){
-    if(message === 'Seattle'){
+    if (message === 'Seattle'){
         document.write("Welcome Seattle Mariner Fan!!!");
     } else if (message === 'New York'){
         document.write('Welcome New York Yankee Fan!!!');
