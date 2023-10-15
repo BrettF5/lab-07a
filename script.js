@@ -5,13 +5,13 @@ function getLocation(){
     return userFrom;
  }
 
-// function locationCheck(userCity){
-//     if(userCity === ''){
-//         userFrom = prompt('Please tell me where your from if you want to'); 
-//     } else {
-//         userFrom = userCity;}
-//     return userFrom;
-//     }
+function locationCheck(userCity){
+    if(userCity === ''){
+        userFrom = prompt('Please tell me where your from if you want to'); 
+    } else {
+        userFrom = userCity;}
+    return userFrom;
+    }
 
 // function whatLocation(message){
 //     if(message === 'Seattle'){
